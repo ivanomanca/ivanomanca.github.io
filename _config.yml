@@ -1,0 +1,17 @@
+# Site settings
+title: New solutions to old problems.
+email: ivano.manca@gmail.com
+author: Ivano Manca
+description: "Ivano's blog."
+baseurl: ""
+url: "http://ivanomanca.cf"
+google_analytics:
+animated: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 3
+sass:
+  compressed: true
+
