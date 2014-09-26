@@ -1,7 +1,8 @@
 ---
 layout:     post
 title:      Lorem ipsum
-date:       2014-06-09 12:32:18
+date:       2014-09-26 15:00:00
+permalink:  /lorem-ipsum/
 summary:    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Etiam rhoncus lectus urna, eu posuere sem tincidunt vel. Nunc eu convallis risus.
 categories: Lorem
@@ -19,3 +20,4 @@ elit augue sodales ligula, nec tincidunt quam leo quis dui.
 Nunc pulvinar ex justo, eget blandit eros scelerisque eu.
 Nunc pharetra turpis in purus sodales, non fringilla justo tempor.
 Pellentesque commodo eu lectus vel vestibulum. Morbi at interdum libero.
+
