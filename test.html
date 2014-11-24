@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML5 number input test</title>
+    <meta name="description" content="Issue #IN-3: HTML5 number input field">
+    <meta name="author" content="Ivo">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Issue #IN-3 -->
+    <h1>HTML5 number input test.</h1>
+    <p> Expected behaviour on all platforms and browsers: </p>
+    <ul>
+      <li>[1] Able to input numbers from 0.00 to 100.00 with the "step" attribute.</li>
+      <li>[2] In-line validation errors shown when going below 0 or above 100, with the "max" and "min" attributes.</li>
+      <li>[3] In-line validation errors shown when inputting letters and symbols.</li>
+      <li>[4] Optionally prevent the user from entering wrong values (e.g. negative numbers, letters, symbols).</li>
+      <li>[5] Support for both decimal point and comma for the decimal separator. This should be possible by supplying a regex for the "pattern" attribute.</li>
+      <li>[6] Data should obviously be correct. There were some reports that some browsers do not handle the input correctly - e.g. Firefox on OSX would convert '1,00' to '100'.</li>
+    </ul>
+
+    <form>
+      <label> [1] Tax rate (step = 0.5):
+        <input id="1" type="number" min="0" max="100" step="0.05" value="0" name="taxrate" required>
+      </label>
+      <br/>
+      <label> [2] Tax rate (RangeOverflow [i.e. value=101.00], RangeUnderflow [i.e. value=-1.00]):
+        <input id="2" type="number" min="0" max="100" step="0.05" value="0" name="taxrate" required>
+      </label>
+      <br/>
+      <label> [3, 4, 5] Tax rate (Pattern mismatch [RegEx: \d+(\.\d{2})?]):
+        <input id="3" pattern="\d+(\.\d{2})?" type="number" min="0" max="100" step="0.05" value="0" name="taxrate" required>
+      </label>
+      <br/>
+      <script>
+            document.getElementById('2').validity.rangeOverflow;
+            document.getElementById('2').validity.rangeUnderflow;
+            document.getElementById('3').validity.patternMismatch;
+      </script>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h2>References</h2>
+    <ul>
+      <li><a href="http://html5doctor.com/html5-forms-input-types/#input-number"> HTML5 input number</a></li>
+      <li><a href="http://www.html5rocks.com/en/tutorials/forms/constraintvalidation/"> HTML5 in-line validation</a></li>
+    </ul>
+
+    <h2>Cross browser compatibility report</h2>
+    <p>Lore ipsum</p>
+
+    <h2>Conclusion</h2>
+    <p>Lore ipsum</p>
+  </body>
+</html>
