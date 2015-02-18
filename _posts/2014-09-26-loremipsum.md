@@ -8,7 +8,7 @@ summary:    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 categories: Lorem
 ---
 
-Aenean viverra viverra accumsan. Curabitur vulputate fermentum massa,
+Aenean accumsan. Curabitur vulputate fermentum massa,
 quis tristique lorem mattis vitae. Donec mi ipsum, scelerisque non enim tempor,
 blandit aliquam ligula. Vivamus posuere sed neque ut ullamcorper.
 Fusce vel ante elementum, varius felis eget, tempor justo.
