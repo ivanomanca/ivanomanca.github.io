@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New solutions to old problems.</title>
+    <description>Ivano&#39;s blog.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Lorem ipsum</title>
+        <description>&lt;p&gt;Aenean. Curabitur vulputate fermentum massa,
+quis tristique lorem mattis vitae. Donec mi ipsum, scelerisque non enim tempor,
+blandit aliquam ligula. Vivamus posuere sed neque ut ullamcorper.
+Fusce vel ante elementum, varius felis eget, tempor justo.
+Vivamus vulputate accumsan nulla id aliquam. Nam molestie massa quis nibh
+lobortis euismod. Nunc elementum leo in interdum vulputate. Maecenas massa lacus,
+venenatis ut placerat non, aliquam vel arcu.
+Morbi feugiat mollis mi a malesuada. In rhoncus, lorem et vestibulum placerat,
+elit augue sodales ligula, nec tincidunt quam leo quis dui.
+Nunc pulvinar ex justo, eget blandit eros scelerisque eu.
+Nunc pharetra turpis in purus sodales, non fringilla justo tempor.
+Pellentesque commodo eu lectus vel vestibulum. Morbi at interdum libero.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 26 Sep 2014 17:00:00 +0200</pubDate>
+        <link>/lorem-ipsum/</link>
+        <guid isPermaLink="true">/lorem-ipsum/</guid>
+      </item>
+    
+      <item>
+        <title>Test</title>
+        <description>&lt;p&gt;test.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Sep 2014 00:00:00 +0200</pubDate>
+        <link>/2014/09/26/test/</link>
+        <guid isPermaLink="true">/2014/09/26/test/</guid>
+      </item>
+    
+  </channel>
+</rss>
