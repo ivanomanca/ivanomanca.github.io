@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Ciao Chiarina è qui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Nullam a rutrum felis. Etiam a tortor vel diam placerat pretium.
 Suspendisse potenti. In commodo lacus vel accumsan feugiat.
 Vestibulum et urna congue, sodales massa feugiat, lacinia neque.
